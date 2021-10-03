@@ -5,4 +5,4 @@ pool:
   
 steps:
   - script: echo Hello, world!
-  displayName: 'Test line'
+    displayName: 'Test line'
