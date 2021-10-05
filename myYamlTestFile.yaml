@@ -11,3 +11,7 @@ steps:
     inputs:
       scriptSource: 'inline'
       script: 'print("This is another test")'
+  - task: PythonScript@0
+    inputs:
+      scriptSource: 'filePath'
+      scriptPath: 'YAML_Testing/printingText'
