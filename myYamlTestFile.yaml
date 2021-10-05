@@ -10,4 +10,4 @@ steps:
   - task: PythonScript@0
     inputs:
       scriptSource: 'inline'
-      script: 'print "This is a test $$$$$$$$$$$$$$"'
+      script: 'print(This is a test $$$$$$$$$$$$$$)'
