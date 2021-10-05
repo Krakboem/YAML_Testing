@@ -6,3 +6,8 @@ pool:
 steps:
   - script: echo Hello, world!
     displayName: 'Test line'
+
+  - task: PythonScript@0
+    inputs:
+      scriptSource: 'inline'
+      script: 'print "this is a test %%%%%%%%%%%%%%%'''
